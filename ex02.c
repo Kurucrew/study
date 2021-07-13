@@ -1,19 +1,19 @@
 #include<stdio.h>
-int main()//º¯¼ö´Â ¸Ş¸ğ¸®»óÀÇ ÀÌ¸§Ç¥(½Äº°ÀÚ)name identifi
-{//Á¤¼öÇü º¯¼ö ¼±¾ğ
+int main()//ë³€ìˆ˜ëŠ” ë©”ëª¨ë¦¬ìƒì˜ ì´ë¦„í‘œ(ì‹ë³„ì)name identify
+{//ì •ìˆ˜í˜• ë³€ìˆ˜ ì„ ì–¸
     int num1, num2;
-    //º¯¼öÀÇ ÃÊ±âÈ­:Ã³À½À¸·Î °ªÀ» ÇÒ´çÇÏ´Â °Í
+    //ë³€ìˆ˜ì˜ ì´ˆê¸°í™”:ì²˜ìŒìœ¼ë¡œ ê°’ì„ í• ë‹¹í•˜ëŠ” ê²ƒ
     num1 = 10;
     num2 = 8;
-    //format specifier : Çü½Ä ÁöÁ¤ÀÚ
+    //format specifier : í˜•ì‹ ì§€ì •ì
     //%d : decimal
-    //%f : floating point ¼Ò¼ıÁ¡ ÀÖ´Â ¼ıÀÚ<-½Ç¼ö ¼Ò¼ıÁ¡ 6ÀÚ¸®±îÁö Ç¥½Ã
-    printf("%d + %d = %d\n", num1, num2, num1+num2);//f=formatÇü½Ä %d=º¯È¯¹®ÀÚ specifier ÁöÁ¤ÀÚ ¼ø¼­´ë·Î º¯¼ö¸¦ ¹ŞÀ½
+    //%f : floating point ì†Œìˆ«ì  ìˆëŠ” ìˆ«ì<-ì‹¤ìˆ˜ ì†Œìˆ«ì  6ìë¦¬ê¹Œì§€ í‘œì‹œ
+    printf("%d + %d = %d\n", num1, num2, num1+num2);//f=formatí˜•ì‹ %d=ë³€í™˜ë¬¸ì specifier ì§€ì •ì ìˆœì„œëŒ€ë¡œ ë³€ìˆ˜ë¥¼ ë°›ìŒ
     printf("%d - %d = %d\n", num1, num2, num1-num2);
     printf("%d x %d = %d\n", num1, num2, num1*num2);
     printf("%d / %d = %d\n", num1, num2, num1/num2);
-    printf("%d / %d = %f\n", num1, num2, num1/(double)num2);//double=Á¤¼öÀÌÁö¸¸ ½Ç¼ö·Î Ç¥½Ã
-    printf("%d / %.2f = %f\n", num1, (double)num2, num1/(double)num2);//.2´Â ¼Ò¼ıÁ¡ 2ÀÚ¸®±îÁö¸¸ Ç¥½ÃÇÑ´Ù´Â ÀÇ¹Ì
+    printf("%d / %d = %f\n", num1, num2, num1/(double)num2);//double=ì •ìˆ˜ì´ì§€ë§Œ ì‹¤ìˆ˜ë¡œ í‘œì‹œ
+    printf("%d / %.2f = %f\n", num1, (double)num2, num1/(double)num2);//.2ëŠ” ì†Œìˆ«ì  2ìë¦¬ê¹Œì§€ë§Œ í‘œì‹œí•œë‹¤ëŠ” ì˜ë¯¸
     printf("%d %% %d = %d", num1, num2, num1%num2);
     return 0;
 }
