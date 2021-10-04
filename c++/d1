@@ -1,0 +1,14 @@
+#include <iostream>
+
+int main()
+{
+    int result, a = 3, b = 4;
+    result = a + b;
+
+    int i;
+    for (i = 0; i < 10; i++)
+    {
+        result += i;
+    }
+    return 0;
+}
